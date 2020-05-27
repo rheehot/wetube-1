@@ -1,13 +1,13 @@
 import "core-js";
 import express from "express";
-import morgan from "morgan";
-import helmet from "helmet";
 import cookieParser from "cookie-parser";
 import bodyParser from "body-parser";
+import helmet from "helmet";
+import morgan from "morgan";
+import routes from "./routes";
+import globalRouter from "./routers/globalRouter";
 import userRouter from "./routers/userRouter";
 import videoRouter from "./routers/videoRouter";
-import globalRouter from "./routers/globalRouter";
-import routes from "./routes";
 
 const app = express();
 
