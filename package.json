@@ -1,13 +1,14 @@
 {
-  "name": "wetube",
+  "name": "recap",
   "version": "1.0.0",
-  "description": "Cloning Youtube with Vanilla and NodeJS",
   "main": "index.js",
-  "author": "AaronLab",
+  "scripts": {
+    "start": "nodemon --exec babel-node init.js --delay 1"
+  },
   "dependencies": {
-    "@babel/core": "^7.10.0",
-    "@babel/node": "^7.8.7",
-    "@babel/preset-env": "^7.10.0",
+    "@babel/core": "^7.10.1",
+    "@babel/node": "^7.10.1",
+    "@babel/preset-env": "^7.10.1",
     "body-parser": "^1.19.0",
     "cookie-parser": "^1.4.5",
     "core-js": "^3.6.5",
@@ -15,9 +16,6 @@
     "helmet": "^3.22.0",
     "morgan": "^1.10.0",
     "pug": "^3.0.0"
-  },
-  "scripts": {
-    "start": "nodemon --exec babel-node init.js --delay 2"
   },
   "devDependencies": {
     "nodemon": "^2.0.4"
